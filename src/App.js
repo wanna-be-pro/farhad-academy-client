@@ -8,8 +8,9 @@ import AddBanner from './components/pages/dashboard/AddBanner';
 function App() {
   return (
     <div className="App">
-      <Home></Home>
+    
       <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
         <Route path='/dashboard'  element={<Dashboard></Dashboard>}>
         <Route index element={<AddBanner></AddBanner>}/>
         </Route>
