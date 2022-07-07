@@ -7,7 +7,7 @@ import AddBanner from './components/pages/dashboard/AddBanner';
 
 function App() {
   return (
-    <div className="App">
+    <div className=" bg-red-50 min-h-screen">
       <Home></Home>
       <Routes>
         <Route path='/dashboard'  element={<Dashboard></Dashboard>}>
