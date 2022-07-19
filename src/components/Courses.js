@@ -15,8 +15,11 @@ const courses = () => {
                 This part is discribe your course details. how we can learn and
                 why we should buy it
               </p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
+              <div class="card-actions flex  justify-between ">
+                <button class="btn btn-primary rounded-full bg-gradient-to-l from-red-500 ">
+                  Buy Now
+                </button>
+                <button class="btn btn-primary rounded-full">Buy Now</button>
               </div>
             </div>
           </div>
@@ -50,11 +53,6 @@ const courses = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="text-5xl">
-          under maintan <br />
-          the developer is so lazy. <br />
-          wait for the lazy developer
         </div>
       </div>
     );
