@@ -8,7 +8,7 @@ import Footer from './components/Shared/Footer';
 
 function App() {
   return (
-    <div className=" bg-red-50 min-h-screen">
+    <div className=" bg-red-50 min-h-screen lg:w-[1500px] mx-auto">
       <Home></Home>
       <Routes>
         <Route path="/dashboard" element={<Dashboard />}>
