@@ -11,8 +11,11 @@ function App() {
     <div className=" bg-red-50 min-h-screen lg:w-[1500px] mx-auto">
       <Home></Home>
       <Routes>
-        <Route path="/dashboard" element={<Dashboard />}>
           <Route index element={<AddBanner />} />
+  
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/dashboard'  element={<Dashboard/>}>
+        <Route index element={<AddBanner></AddBanner>}/>
         </Route>
       </Routes>
 
